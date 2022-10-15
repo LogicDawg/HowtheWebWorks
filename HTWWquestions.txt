@@ -1,0 +1,31 @@
+What is HTTP?
+Hyper Text  Transfer Protocol - Located on port 80
+
+What is a URL?
+ Uniform Resource Locator, Allows you to enter the protocol and address of a server to connect too.
+
+What is DNS?
+Domain Name System - Translates name of a URL such as google.com to the IP address to load resources.
+
+What is a query string?
+A string of text to search for on the server. You can pass key-value pairs.
+
+What are two HTTP verbs and how are they different?
+Get - Retrieves information on the server without changing anything.
+Post - Send information to the server to change.
+
+What is an HTTP request?
+Sends information in headers containing the keywords of what it wants or requests to have.
+
+What is an HTTP response?
+The response to the requested information, so if English is requested it will set respond back with the English.
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+Information to change the response of a webpage. Such as Application - could be Application/json for a json request. Or Application-Language to change the language of a webpage.
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+Browser resolves the name into an IP through DNS
+Browser send request to IP, with headers
+Server send response
+Dom gets created from the response
+Browser makes more requests if needed from the response it receives from the server.
